@@ -1,0 +1,289 @@
+/* my perfeclty done css! */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #ddd;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    height: 65px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    text-transform: capitalize;
+}
+
+header {
+    border-bottom: 1px solid black;
+    margin-bottom: 12px;
+    
+}
+
+footer {
+    border-top: 1px solid black;
+    margin-top: 12px;
+
+}
+
+nav {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: "modula-sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 200px;
+    text-align: center;
+    
+}
+
+.details {
+   text-align: center; 
+    padding: 0px 0px;
+}
+
+.details-h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.details-p {
+    text-align: justify;
+}
+
+.details-text {
+    display: inline-block;
+    width: 200px;
+    margin: 0px 12px;
+
+}
+
+.details-image {
+    margin: 0px 12px;
+    width:  550px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* end of reset */
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+.logo { 
+    font-weight: bold;
+    font-size: 4em;
+    text-transform:uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+.hero {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background-image: url(images/Background.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color: black;
+} 
+
+.hero h1 {
+position: absolute;
+top: 25%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.hero img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row-middle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row-bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 400px;
+    margin: 20px 10px 10px 20px;
+    text-align: left;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.card img {
+    
+    width: 50%;
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 40px;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+    filter: drop-shadow(10px 10px 10px #000000);
+    width: 200px;
+  margin: auto;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+@keyframe rotate {
+  0% { transform: rotate(0turn); }
+  100% { transform: rotate(1turn); }
+}
+
+@-webkit-keyframes rotate {
+  0% { transform: rotate(0turn); }
+  100% { transform: rotate(1turn); }
+}
+
+
+
+.card h2 {
+    font-size: 2.5em;
+    font-family: "modula-sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.card p {
+    text-align: left;
+}
+
+.card div {
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+}
+
+.connect {
+   
+}
+
+.connect h1 {
+    font-size: 9em;
+    text-align: center;
+}
+
+.box {
+    border: 1px solid black;
+    width: 300px;
+    height: 20px;
+    Margin-left: 300px;
+}
+
+.connect img {
+    width: 99%;
+    border: 7px solid black;
+}
+
+.connect p {
+    text-align: center;
+    padding: 10px;
+    margin-right: 240px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 390px;
+    width: 100px;
+    background-color: #000000;
+    color: white;
+    font-family: "modula-sans", sans-serif;
+    font-size: 2em;
+    
+}
+
+/* fonts 
+    Modula OT Sans Regular
+    font-family: "modula-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    Modula OT Sans Bold
+    font-family: "modula-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    Modula OT Serif Regular
+    font-family: "modula-serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    Modula OT Serif Bold
+    font-family: "modula-serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    Modula OT Tall
+    font-family: "modula-tall", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+*/
+
+/* items photo attributes 
+
+
+    Photo by <a href="https://unsplash.com/@rakshithk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rakshith Hatwar</a> on <a href="https://unsplash.com/photos/green-trees-near-mountain-during-daytime-XNfyaABCLJk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+    Photo by <a href="https://unsplash.com/@ojrupp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Owen Rupp</a> on <a href="https://unsplash.com/photos/landscape-photography-of-mountains-and-trees-ddw9SIW1CWc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+    Photo by <a href="https://unsplash.com/@the_bracketeer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hendrik Cornelissen</a> on <a href="https://unsplash.com/photos/time-lapse-photography-of-river--qrcOR33ErA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+    Photo by <a href="https://unsplash.com/@trevor_mh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Trevor Hayes</a> on <a href="https://unsplash.com/photos/green-trees-on-brown-rocky-mountain-beside-blue-sea-under-blue-sky-during-daytime-nyLuIsGK87s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+    Photo by <a href="https://unsplash.com/@laurenlopes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Lauren Lopes</a> on <a href="https://unsplash.com/photos/green-trees-near-lake-under-white-clouds-and-blue-sky-during-daytime-Vo2EqvLJtmA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+    Photo by <a href="https://unsplash.com/@intricateexplorer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Intricate Explorer</a> on <a href="https://unsplash.com/photos/brown-rock-formation-under-blue-sky-during-daytime-EPyKdwWz67k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+/*
+
+* - index photo attributes
+
+Photo by Len Saltiel - https://www.flickr.com/photos/lsaltiel/14765885545/, CC0, https://commons.wikimedia.org/w/index.php?curid=77590405 
+    Photo by <a href="https://unsplash.com/@nickhh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nick Herasimenka</a> on <a href="https://unsplash.com/photos/trees-surrounded-by-rock-formation-t-3SoodYnR4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+/*
